@@ -65,3 +65,7 @@ function getPyramidVolume(length, width, height) {
     console.log(pyramidVolume)
 }
 getPyramidVolume(2, 2, 3)
+
+let content2 = document.getElementById('content-2');
+let textHtml = '<b>怎么会不呢？</b>'；
+content2.innerHTML = textHtml;
